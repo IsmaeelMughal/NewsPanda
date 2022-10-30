@@ -26,12 +26,6 @@ export class NavBar extends Component {
               id="navbarSupportedContent"
             >
               <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-                <li className="nav-item">
-                  <Link className="nav-link" aria-current="page" to="/">
-                    Home
-                  </Link>
-                </li>
-
                 <li className="nav-item dropdown">
                   <Link
                     className="nav-link dropdown-toggle"
@@ -48,7 +42,7 @@ export class NavBar extends Component {
                     aria-labelledby="navbarDropdown"
                   >
                     <li>
-                      <Link className="dropdown-item" to="/general">
+                      <Link className="dropdown-item" to="/">
                         General
                       </Link>
                     </li>
@@ -85,6 +79,49 @@ export class NavBar extends Component {
                     </li>
                   </ul>
                 </li>
+                {/* <li className="nav-item">
+                  <Link className="nav-link" aria-current="page" to="/">
+                    General
+                  </Link>
+                </li>
+                <li className="nav-item">
+                  <Link className="nav-link" aria-current="page" to="/science">
+                    Science
+                  </Link>
+                </li>
+                <li className="nav-item">
+                  <Link
+                    className="nav-link"
+                    aria-current="page"
+                    to="/entertainment"
+                  >
+                    Entertainment
+                  </Link>
+                </li>
+                <li className="nav-item">
+                  <Link className="nav-link" aria-current="page" to="/buisness">
+                    Buisness
+                  </Link>
+                </li>
+                <li className="nav-item">
+                  <Link className="nav-link" aria-current="page" to="/health">
+                    Health
+                  </Link>
+                </li>
+                <li className="nav-item">
+                  <Link className="nav-link" aria-current="page" to="/sports">
+                    Sports
+                  </Link>
+                </li>
+                <li className="nav-item">
+                  <Link
+                    className="nav-link"
+                    aria-current="page"
+                    to="/technology"
+                  >
+                    Technology
+                  </Link>
+                </li> */}
               </ul>
             </div>
           </div>
