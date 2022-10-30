@@ -2,7 +2,7 @@ This is an API based application build with react.
 It fetches data from newsapi.org and displays the data in a handsome way.
 
 
-site is live on: 
+site is live on: https://ismaeelmughal.github.io/NewsPanda/
 
 # Getting Started with Create React App
 
