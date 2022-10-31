@@ -1,6 +1,8 @@
 This is an API based application build with react.
 It fetches data from newsapi.org and displays the data in a handsome way.
 
+newsapi is for local use only!!!!
+
 
 site is live on: https://ismaeelmughal.github.io/NewsPanda/
 
